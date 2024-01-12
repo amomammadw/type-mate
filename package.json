@@ -1,0 +1,49 @@
+{
+    "name": "type-mate",
+    "private": false,
+    "version": "0.0.1",
+    "type": "module",
+    "main": "./dist/type-mate.umd.cjs",
+    "module": "./dist/type-mate.js",
+    "types": "./dist/index.d.ts",
+    "license": "MIT",
+    "keywords": [
+        "helper",
+        "typescript",
+        "TypeMate",
+        "lodash",
+        "utility functions"
+    ],
+    "exports": {
+        ".": {
+            "import": "./dist/type-mate.js",
+            "require": "./dist/type-mate.umd.cjs",
+            "types": "./dist/index.d.ts"
+        }
+    },
+    "repository": {
+        "url": "https://github.com/amomammadw82/type-mate",
+        "directory": "/src"
+    },
+    "bugs": {
+        "url": "https://github.com/amomammadw82/type-mate/issues"
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "dev": "vite",
+        "build": "tsc && vite build",
+        "preview": "vite preview",
+        "docs:dev": "vitepress dev docs",
+        "docs:build": "vitepress build docs",
+        "docs:preview": "vitepress preview docs"
+    },
+    "devDependencies": {
+        "@types/node": "^20.11.0",
+        "typescript": "^5.2.2",
+        "vite": "^5.0.8",
+        "vite-plugin-dts": "^3.7.0",
+        "vitepress": "1.0.0-rc.36"
+    }
+}
