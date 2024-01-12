@@ -6,7 +6,7 @@ export default defineConfig({
     description: "a lightweight and typesafe javascript utility functions",
     base: "/type-mate/",
     themeConfig: {
-        logo: "/assets/logo.png",
+        logo: "/logo.png",
         // https://vitepress.dev/reference/default-theme-config
         nav: [
             { text: "Home", link: "/" },

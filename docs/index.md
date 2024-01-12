@@ -7,7 +7,7 @@ hero:
     text: "a lightweight and typesafe javascript utility helper"
     tagline: Best choice for your frontend and backend
     image:
-        src: /assets/logo.png
+        src: /logo.png
         alt: TypeMate
     actions:
         - theme: brand
