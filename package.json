@@ -22,11 +22,11 @@
         }
     },
     "repository": {
-        "url": "https://github.com/amomammadw82/type-mate",
+        "url": "https://github.com/amomammadw/type-mate",
         "directory": "/src"
     },
     "bugs": {
-        "url": "https://github.com/amomammadw82/type-mate/issues"
+        "url": "https://github.com/amomammadw/type-mate/issues"
     },
     "files": [
         "dist"

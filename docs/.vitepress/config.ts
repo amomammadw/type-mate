@@ -29,10 +29,10 @@ export default defineConfig({
             },
         ],
 
-        footer: { copyright: "amomammadw82", message: "Made with ❤️" },
+        footer: { copyright: "amomammadw", message: "Made with ❤️" },
 
         socialLinks: [
-            { icon: "github", link: "https://github.com/amomammadw82/type-mate" },
+            { icon: "github", link: "https://github.com/amomammadw/type-mate" },
             { icon: "linkedin", link: "https://www.linkedin.com/in/mohammad-ranjbar-15408518b/" },
         ],
     },

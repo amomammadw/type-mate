@@ -1,1 +1,1 @@
-# amomammadw82.github.io-type-mate
+# amomammadw.github.io-type-mate
