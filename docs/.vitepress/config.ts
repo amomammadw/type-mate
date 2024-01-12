@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
     title: "TypeMate",
     description: "a lightweight and typesafe javascript utility functions",
-    base: "/typemate/",
+    base: "/type-mate/",
     themeConfig: {
         logo: "/assets/logo.png",
         // https://vitepress.dev/reference/default-theme-config
