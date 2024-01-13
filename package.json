@@ -1,7 +1,7 @@
 {
     "name": "@amomammadw/type-mate",
     "private": false,
-    "version": "0.0.2",
+    "version": "0.0.3",
     "type": "module",
     "main": "./dist/type-mate.umd.cjs",
     "module": "./dist/type-mate.js",
