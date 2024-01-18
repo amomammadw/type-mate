@@ -35,3 +35,27 @@ import { isObject } from "type-mate";
 
 console.log(isObject("mmd")); // returns false
 ```
+
+## is Symbol
+
+```js
+import { isSymbol } from "type-mate";
+
+console.log(isSymbol("mmd")); // returns false
+```
+
+## is Boolean
+
+```js
+import { isBoolean } from "type-mate";
+
+console.log(isBoolean("mmd")); // returns false
+```
+
+## is Null
+
+```js
+import { isNull } from "type-mate";
+
+console.log(isNull("mmd")); // returns false
+```
