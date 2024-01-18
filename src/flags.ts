@@ -37,3 +37,19 @@ export const isObject = (value: any) => typeof value === "object";
  * @example isSymbol({name:'mmd'})
  */
 export const isSymbol = (value: any) => typeof value === "symbol";
+
+/**
+ * @description is the value boolean or not
+ * @returns boolean
+ * @param symbol your value
+ * @example isBoolean()
+ */
+export const isBoolean = (value: any) => typeof value === "boolean";
+
+/**
+ * @description is the value null or not
+ * @returns boolean
+ * @param value your value
+ * @example isNull
+ */
+export const isNull = (value: any) => value === null;
