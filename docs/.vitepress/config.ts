@@ -23,6 +23,7 @@ export default defineConfig({
                 items: [
                     { text: "What is TypeMate", link: "/introduction" },
                     { text: "Get Started", link: "/get-started" },
+                    { text: "Flags", link: "/flags" },
                     { text: "Markdown Examples", link: "/markdown-examples" },
                     { text: "Runtime API Examples", link: "/api-examples" },
                 ],
