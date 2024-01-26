@@ -7,15 +7,15 @@
 ::: code-group
 
 ```bash [npm]
-npm install type-mate
+npm install @amomammadw/type-mate
 ```
 
 ```bash [yarn]
-yarn add type-mate
+yarn add @amomammadw/type-mate
 ```
 
 ```bash [pnpm]
-pnpm add type-mate
+pnpm add @amomammadw/type-mate
 ```
 
 :::
@@ -27,7 +27,7 @@ pnpm add type-mate
 #### all utilities are type safe and all type errors are handled precisely :fire:
 
 ```js
-import { isOdd } from "type-mate";
+import { isOdd } from "@amomammadw/type-mate";
 
 console.log(isOdd(42)); // returns false
 
