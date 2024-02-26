@@ -53,3 +53,11 @@ export const isBoolean = (value: any) => typeof value === "boolean";
  * @example isNull
  */
 export const isNull = (value: any) => value === null;
+
+/**
+ * @description is the value array or not
+ * @returns boolean
+ * @param value your value
+ * @example isArray
+ */
+export const isArray = (value: any) => Array.isArray(value);

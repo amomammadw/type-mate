@@ -7,7 +7,7 @@
 ## is String
 
 ```js
-import { isString } from "type-mate";
+import { isString } from "@amomammadw/type-mate";
 
 console.log(isString("mmd")); // returns true
 ```
@@ -15,7 +15,7 @@ console.log(isString("mmd")); // returns true
 ## is Number
 
 ```js
-import { isNumber } from "type-mate";
+import { isNumber } from "@amomammadw/type-mate";
 
 console.log(isNumber(42)); // returns true
 ```
@@ -23,7 +23,7 @@ console.log(isNumber(42)); // returns true
 ## is Undefined
 
 ```js
-import { isUndefined } from "type-mate";
+import { isUndefined } from "@amomammadw/type-mate";
 
 console.log(isUndefined("mmd")); // returns false
 ```
@@ -31,7 +31,7 @@ console.log(isUndefined("mmd")); // returns false
 ## is Object
 
 ```js
-import { isObject } from "type-mate";
+import { isObject } from "@amomammadw/type-mate";
 
 console.log(isObject("mmd")); // returns false
 ```
@@ -39,7 +39,7 @@ console.log(isObject("mmd")); // returns false
 ## is Symbol
 
 ```js
-import { isSymbol } from "type-mate";
+import { isSymbol } from "@amomammadw/type-mate";
 
 console.log(isSymbol("mmd")); // returns false
 ```
@@ -47,7 +47,7 @@ console.log(isSymbol("mmd")); // returns false
 ## is Boolean
 
 ```js
-import { isBoolean } from "type-mate";
+import { isBoolean } from "@amomammadw/type-mate";
 
 console.log(isBoolean("mmd")); // returns false
 ```
@@ -55,7 +55,15 @@ console.log(isBoolean("mmd")); // returns false
 ## is Null
 
 ```js
-import { isNull } from "type-mate";
+import { isNull } from "@amomammadw/type-mate";
 
 console.log(isNull("mmd")); // returns false
+```
+
+## is Array
+
+```js
+import { isArray } from "@amomammadw/type-mate";
+
+console.log(isArray("mmd")); // returns false
 ```
